@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name ads11x5)(type KiCad)(uri ${KIPRJMOD}/ADAFRUIT/ads11x5.pretty)(options "")(descr ""))
+  (lib (name ALPHASENSE)(type KiCad)(uri ${KIPRJMOD}/ALPHASENSE/ALPHASENSE.pretty)(options "")(descr ""))
+  (lib (name LOGO)(type KiCad)(uri ${KIPRJMOD}/LOGO.pretty)(options "")(descr ""))
+)
