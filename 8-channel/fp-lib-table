@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name LOGO)(type KiCad)(uri ${KIPRJMOD}/LOGO.pretty)(options "")(descr ""))
+  (lib (name ALPHASENSE)(type KiCad)(uri ${KIPRJMOD}/ALPHASENSE/ALPHASENSE.pretty)(options "")(descr ""))
+  (lib (name PUMP)(type KiCad)(uri ${KIPRJMOD}/PUMP/PUMP.pretty)(options "")(descr ""))
+)

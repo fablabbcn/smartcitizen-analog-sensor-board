@@ -1,0 +1,18 @@
+"Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
+1;"C1,C2,C5";"fab-C1206FAB";3;"1uF";;;
+2;"C3";"fab-C1206FAB";1;"10nF";;;
+3;"C4";"fab-C1206FAB";1;"0.1uF";;;
+4;"M1,M2,M3,M4";"fab-1X06";4;"PINHD-1x06-HEADER";;;
+5;"M5,M6";"fab-1X02";2;"PINHD-1x02-HEADER";;;
+6;"R1,R4";"fab-R1206FAB";2;"10kΩ (x2)";;;
+7;"R2,R3,R5,R6,R7,R8";"fab-R1206FAB";6;"10kΩ";;;
+8;"T1,T2";"fab-SOT-23";2;"NMOSFETSOT23";;;
+9;"G***";"Logo_5000";1;"LOGO";;;
+10;"J2";"HW4-2.0";1;"GROVE2";;;
+11;"JP3,JP2";"SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm";2;"Jumper_2_Open";;;
+12;"JP1";"SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm";1;"SolderJumper_3_Bridged12";;;
+13;"U2,U1";"TSSOP-10_3x3mm_P0.5mm";2;"ADS1115IDGS";;;
+14;"J5";"PinSocket_2x05_P2.00mm_Vertical";1;"Conn_02x05_Odd_Even";;;
+15;"J4,J3";"TerminalBlock_Phoenix_PT-1,5-2-3.5-H_1x02_P3.50mm_Horizontal";2;"EXT_V";;;
+16;"J1";"HW4-2.0";1;"GROVE1";;;
+17;"FB2,FB1";"fab-C1206FAB";2;"1.5kΩ";;;
