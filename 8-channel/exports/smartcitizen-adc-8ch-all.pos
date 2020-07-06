@@ -1,0 +1,25 @@
+### Module positions - created on 2020 July 06, Monday 12:51:49 ###
+### Printed by Pcbnew version kicad (5.1.5-0-10_14)
+## Unit = mm, Angle = deg.
+## Side : All
+# Ref     Val           Package                     PosX       PosY       Rot  Side
+C1        1uF           fab-C1206FAB            147.0660  -109.8042   90.0000  top
+C2        1uF           fab-C1206FAB            162.2679  -109.8042   90.0000  top
+C3        10nF          fab-C1206FAB            141.7955  -111.1123  180.0000  top
+C4        0.1uF         fab-C1206FAB            158.4674  -109.8042  270.0000  top
+C5        1uF           fab-C1206FAB            154.6669  -109.8042  270.0000  top
+FB1       1.5kΩ        fab-C1206FAB            150.8665  -109.8042   90.0000  top
+FB2       1.5kΩ        fab-C1206FAB            147.0660  -103.0351   90.0000  top
+R1        10kΩ_(x2)    fab-R1206FAB            161.0233   -92.0877    0.0000  top
+R2        10kΩ         fab-R1206FAB            160.9852   -95.0976    0.0000  top
+R3        10kΩ         fab-R1206FAB            143.7005   -95.2119  180.0000  top
+R4        10kΩ_(x2)    fab-R1206FAB            143.7513   -92.0877    0.0000  top
+R5        10kΩ         fab-R1206FAB            154.6669  -103.0351   90.0000  top
+R6        10kΩ         fab-R1206FAB            158.4674  -103.0351  270.0000  top
+R7        10kΩ         fab-R1206FAB            150.8665  -103.0351   90.0000  top
+R8        10kΩ         fab-R1206FAB            162.2679  -103.0351  270.0000  top
+T1        NMOSFETSOT23  fab-SOT-23              141.8717  -106.9975   90.0000  top
+T2        NMOSFETSOT23  fab-SOT-23              141.8717  -102.4636   90.0000  top
+U1        ADS1115IDGS   TSSOP-10_3x3mm_P0.5mm   155.2702   -94.3102   90.0000  top
+U2        ADS1115IDGS   TSSOP-10_3x3mm_P0.5mm   149.6060   -94.2721   90.0000  top
+## End

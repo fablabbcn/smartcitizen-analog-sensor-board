@@ -1,0 +1,21 @@
+### Module positions - created on 2020 July 06, Monday 13:04:39 ###
+### Printed by Pcbnew version kicad (5.1.5-0-10_14)
+## Unit = mm, Angle = deg.
+## Side : All
+# Ref     Val          Package                     PosX       PosY       Rot  Side
+C4        1uF          fab-C1206FAB           -154.0764   -85.1916   90.0000  bottom
+FB1       1.5_kΩ      fab-R1206FAB           -156.5402   -93.9292    0.0000  bottom
+FB2       1.5_kΩ      fab-R1206FAB           -156.7180   -80.0100  180.0000  bottom
+R5        10k          fab-R1206FAB           -156.5656   -97.6884    0.0000  bottom
+R6        10k          fab-R1206FAB           -156.6672   -90.5764    0.0000  bottom
+U1        ADS1115IDGS  TSSOP-10_3x3mm_P0.5mm  -158.3944   -85.0392  270.0000  bottom
+C1        10n          fab-C1206FAB            157.9880   -97.9424   90.0000  top
+C2        100n         fab-C1206FAB            150.0124   -97.9424   90.0000  top
+C3        1uF          fab-C1206FAB            154.0256   -97.9424   90.0000  top
+R1        10k          fab-R1206FAB            150.0124   -86.2584  270.0000  top
+R2        10k          fab-R1206FAB            150.0124   -92.2020  270.0000  top
+R3        10k          fab-R1206FAB            154.2796  -105.2068   90.0000  top
+R4        10k          fab-R1206FAB            158.1404  -105.2068   90.0000  top
+T1        NMOSFET      fab-SOT-23              154.3812   -83.8200   90.0000  top
+T2        NMOSFET      fab-SOT-23              154.3304   -89.8144   90.0000  top
+## End

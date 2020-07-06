@@ -1,0 +1,235 @@
+Cmp-Mod V01 Created by PcbNew   date = 2020 July 06, Monday 13:06:31
+
+BeginCmp
+TimeStamp = 5EFB279E
+Path = /5F06E2A2/5F07F0BB
+Reference = J2;
+ValeurCmp = EXT-V;
+IdModule  = TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-3.5-H_1x02_P3.50mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EFB2774
+Path = /5F06E2A2/5F07F0C1
+Reference = J1;
+ValeurCmp = EXT-V;
+IdModule  = TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-3.5-H_1x02_P3.50mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EFB7430
+Path = 
+Reference = G***;
+ValeurCmp = LOGO;
+IdModule  = LOGO:Logo_5000;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EFB27B3
+Path = /5F06E2A2/5F07F10E
+Reference = JP1;
+ValeurCmp = SolderJumper_3_Bridged12;
+IdModule  = Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm_NumberLabels;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EFB2611
+Path = /5F06E2A2/5F07F18B
+Reference = EXT-V1;
+ValeurCmp = PINHD-1x02-HEADER;
+IdModule  = fab:fab-1X02;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EFB2628
+Path = /5F06E2A2/5F07F183
+Reference = EXT-V2;
+ValeurCmp = PINHD-1x02-HEADER;
+IdModule  = fab:fab-1X02;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EFB2632
+Path = /5F06E2A2/5F07F0CF
+Reference = C1;
+ValeurCmp = 10n;
+IdModule  = fab:fab-C1206FAB;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EFB263C
+Path = /5F06E2A2/5F07F0D5
+Reference = C2;
+ValeurCmp = 100n;
+IdModule  = fab:fab-C1206FAB;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EFB6A2A
+Path = /5F06E2A2/5F07F205
+Reference = C3;
+ValeurCmp = 1uF;
+IdModule  = fab:fab-C1206FAB;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EFB2650
+Path = /5F06E2A2/5F07F1D6
+Reference = C4;
+ValeurCmp = 1uF;
+IdModule  = fab:fab-C1206FAB;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EFB7896
+Path = /5F06E2A2/5F07F1F7
+Reference = FB1;
+ValeurCmp = 1.5 kΩ;
+IdModule  = fab:fab-R1206FAB;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EFB3CC0
+Path = /5F06E2A2/5F07F1FD
+Reference = FB2;
+ValeurCmp = 1.5 kΩ;
+IdModule  = fab:fab-R1206FAB;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EFB268A
+Path = /5F06E2A2/5F07F0A9
+Reference = GROVEIN1;
+ValeurCmp = GROVE-CONNECTOR-DIP_4P-2.0_;
+IdModule  = OPL_Connector:HW4-2.0;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EFB26B0
+Path = /5F06E2A2/5F07F0B5
+Reference = GROVEOUT1;
+ValeurCmp = GROVE-CONNECTOR-DIP_4P-2.0_;
+IdModule  = OPL_Connector:HW4-2.0;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EFB270F
+Path = /5F06E2A2/5F07F07E
+Reference = ISB_1;
+ValeurCmp = PINHD-1x06-HEADER;
+IdModule  = fab:fab-1X06;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EFB0C0D
+Path = /5F06E2A2/5F07F078
+Reference = ISB_2;
+ValeurCmp = PINHD-1x06-HEADER;
+IdModule  = fab:fab-1X06;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EFB27C5
+Path = /5F06E2A2/5F07F118
+Reference = JP2;
+ValeurCmp = Jumper_2_Open;
+IdModule  = Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EFB27E9
+Path = /5F06E2A2/5F07F173
+Reference = JP4;
+ValeurCmp = Jumper_2_Open;
+IdModule  = Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EFB27FB
+Path = /5F06E2A2/5F07F17A
+Reference = JP5;
+ValeurCmp = Jumper_2_Open;
+IdModule  = Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EFB2819
+Path = /5F06E2A2/5F07F12F
+Reference = R1;
+ValeurCmp = 10k;
+IdModule  = fab:fab-R1206FAB;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EFB2823
+Path = /5F06E2A2/5F07F161
+Reference = R2;
+ValeurCmp = 10k;
+IdModule  = fab:fab-R1206FAB;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EFB420F
+Path = /5F06E2A2/5F07F137
+Reference = R3;
+ValeurCmp = 10k;
+IdModule  = fab:fab-R1206FAB;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EFB422A
+Path = /5F06E2A2/5F07F152
+Reference = R4;
+ValeurCmp = 10k;
+IdModule  = fab:fab-R1206FAB;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EFB2841
+Path = /5F06E2A2/5F07F1E9
+Reference = R5;
+ValeurCmp = 10k;
+IdModule  = fab:fab-R1206FAB;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EFB284B
+Path = /5F06E2A2/5F07F1E1
+Reference = R6;
+ValeurCmp = 10k;
+IdModule  = fab:fab-R1206FAB;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EFB2862
+Path = /5F06E2A2/5F07F129
+Reference = T1;
+ValeurCmp = NMOSFET;
+IdModule  = fab:fab-SOT-23;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EFB2879
+Path = /5F06E2A2/5F07F14A
+Reference = T2;
+ValeurCmp = NMOSFET;
+IdModule  = fab:fab-SOT-23;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EFB3A8F
+Path = /5F06E2A2/5F07F1B9
+Reference = U1;
+ValeurCmp = ADS1115IDGS;
+IdModule  = Package_SO:TSSOP-10_3x3mm_P0.5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EFB39F0
+Path = /5F06E2A2/5F07F059
+Reference = M1;
+ValeurCmp = PINHD-1x10-HEADER;
+IdModule  = ads11x5:ads11x5;
+EndCmp
+
+EndListe
