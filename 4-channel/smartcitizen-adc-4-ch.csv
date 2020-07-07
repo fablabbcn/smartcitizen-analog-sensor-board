@@ -14,4 +14,5 @@
 13;"M2";"fab-2X02SMD";1;"PINHD-2X2-SMD";;;
 14;"R1,R2,R3,R4,R5,R6";"fab-R1206FAB";6;"10k";;;
 15;"T1,T2";"fab-SOT-23";2;"NMOSFET";;;
-16;"GROVEOUT1";"HW4-SMD-2.0-90D";1;"GROVE-CONNECTOR-DIP_4P-2.0_";;;
+16;"I1,I2";"alphasense-isb";2;"alphasense-isb";;;
+17;"GROVEOUT1";"HW4-SMD-2.0-90D";1;"GROVE-CONNECTOR-DIP_4P-2.0_";;;
