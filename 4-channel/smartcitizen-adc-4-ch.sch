@@ -435,13 +435,13 @@ F 3 "~" H 7350 1950 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7550 1950 7900 1950
-Text GLabel 5300 5700 0    50   Input ~ 0
+Text GLabel 5000 5550 0    50   Input ~ 0
 5V
-Text GLabel 5300 5600 0    50   Input ~ 0
+Text GLabel 5000 5450 0    50   Input ~ 0
 GND
-Text GLabel 5300 5400 0    50   Input ~ 0
+Text GLabel 5900 5550 2    50   Input ~ 0
 5V
-Text GLabel 5300 5300 0    50   Input ~ 0
+Text GLabel 5900 5450 2    50   Input ~ 0
 GND
 Wire Wire Line
 	1400 5900 2350 5900
@@ -546,20 +546,6 @@ ALRT
 Wire Wire Line
 	10400 1900 10250 1900
 Connection ~ 10250 1900
-$Comp
-L fab:PINHD-1x02-HEADER EXT-V?
-U 1 1 5EFD4E7E
-P 5500 5800
-AR Path="/5F06E2A2/5EFD4E7E" Ref="EXT-V?"  Part="1" 
-AR Path="/5F094158/5EFD4E7E" Ref="EXT-V?"  Part="1" 
-AR Path="/5EFD4E7E" Ref="EXT-V1"  Part="1" 
-F 0 "EXT-V1" H 5500 6100 45  0000 C CNN
-F 1 "PINHD-1x02-HEADER" H 5500 5800 45  0001 C CNN
-F 2 "fab:fab-1X02" H 5530 5950 20  0001 C CNN
-F 3 "" H 5500 5800 50  0001 C CNN
-	1    5500 5800
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:Ferrite_Bead FB?
 U 1 1 5EFD4E78
@@ -694,27 +680,9 @@ F 3 "" H 9150 4600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5300 5400 5500 5400
+	5000 5550 5200 5550
 Wire Wire Line
-	5300 5300 5500 5300
-$Comp
-L fab:PINHD-1x02-HEADER EXT-V?
-U 1 1 5EFD4E06
-P 5500 6100
-AR Path="/5F06E2A2/5EFD4E06" Ref="EXT-V?"  Part="1" 
-AR Path="/5F094158/5EFD4E06" Ref="EXT-V?"  Part="1" 
-AR Path="/5EFD4E06" Ref="EXT-V2"  Part="1" 
-F 0 "EXT-V2" H 5500 6400 45  0000 C CNN
-F 1 "PINHD-1x02-HEADER" H 5500 6100 45  0001 C CNN
-F 2 "fab:fab-1X02" H 5530 6250 20  0001 C CNN
-F 3 "" H 5500 6100 50  0001 C CNN
-	1    5500 6100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5300 5700 5500 5700
-Wire Wire Line
-	5300 5600 5500 5600
+	5000 5450 5200 5450
 Wire Wire Line
 	7550 2300 7900 2300
 $Comp
@@ -896,4 +864,19 @@ F 3 "https://www.mouser.es/datasheet/2/324/3/ItemDetail_1985807-927166.pdf" H 72
 	1    7200 5300
 	1    0    0    -1  
 $EndComp
+$Comp
+L fab:PINHD-2X2-SMD M2
+U 1 1 5F086F4A
+P 5400 5550
+F 0 "M2" H 5350 5904 45  0000 C CNN
+F 1 "PINHD-2X2-SMD" H 5350 5820 45  0000 C CNN
+F 2 "fab-2X02SMD" H 5430 5700 20  0001 C CNN
+F 3 "" H 5400 5550 50  0001 C CNN
+	1    5400 5550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 5450 5900 5450
+Wire Wire Line
+	5500 5550 5900 5550
 $EndSCHEMATC
