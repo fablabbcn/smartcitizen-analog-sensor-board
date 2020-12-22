@@ -288,6 +288,7 @@ F 0 "T1" V 2650 1550 45  0000 C CNN
 F 1 "NMOSFET" V 2734 1550 45  0000 C CNN
 F 2 "fab-SOT-23" H 2530 1700 20  0001 C CNN
 F 3 "https://www.mouser.es/datasheet/2/308/NDS355AN-D-1813055.pdf" H 2500 1550 50  0001 C CNN
+F 4 "C431497" V 2500 1550 50  0001 C CNN "LCSC"
 	1    2500 1550
 	0    1    1    0   
 $EndComp
@@ -302,6 +303,7 @@ F 0 "R1" V 2158 1418 45  0000 L CNN
 F 1 "10k" V 2242 1418 45  0000 L CNN
 F 2 "fab-R1206FAB" H 2230 1500 20  0001 C CNN
 F 3 "" H 2200 1350 50  0001 C CNN
+F 4 "C17902" V 2200 1350 50  0001 C CNN "LCSC"
 	1    2200 1350
 	0    1    1    0   
 $EndComp
@@ -319,6 +321,7 @@ F 0 "R3" V 2708 1418 45  0000 L CNN
 F 1 "10k" V 2792 1418 45  0000 L CNN
 F 2 "fab-R1206FAB" H 2780 1500 20  0001 C CNN
 F 3 "" H 2750 1350 50  0001 C CNN
+F 4 "C17902" V 2750 1350 50  0001 C CNN "LCSC"
 	1    2750 1350
 	0    1    1    0   
 $EndComp
@@ -357,6 +360,7 @@ F 0 "T2" V 2650 2350 45  0000 C CNN
 F 1 "NMOSFET" V 2734 2350 45  0000 C CNN
 F 2 "fab-SOT-23" H 2530 2500 20  0001 C CNN
 F 3 "https://www.mouser.es/datasheet/2/308/NDS355AN-D-1813055.pdf" H 2500 2350 50  0001 C CNN
+F 4 "NCE2304" V 2500 2350 50  0001 C CNN "LCSC"
 	1    2500 2350
 	0    1    1    0   
 $EndComp
@@ -374,6 +378,7 @@ F 0 "R4" V 2708 2218 45  0000 L CNN
 F 1 "10k" V 2792 2218 45  0000 L CNN
 F 2 "fab-R1206FAB" H 2780 2300 20  0001 C CNN
 F 3 "" H 2750 2150 50  0001 C CNN
+F 4 "C17902" V 2750 2150 50  0001 C CNN "LCSC"
 	1    2750 2150
 	0    1    1    0   
 $EndComp
@@ -404,6 +409,7 @@ F 0 "R2" V 2158 2218 45  0000 L CNN
 F 1 "10k" V 2242 2218 45  0000 L CNN
 F 2 "fab-R1206FAB" H 2230 2300 20  0001 C CNN
 F 3 "" H 2200 2150 50  0001 C CNN
+F 4 "C17902" V 2200 2150 50  0001 C CNN "LCSC"
 	1    2200 2150
 	0    1    1    0   
 $EndComp
@@ -500,6 +506,7 @@ F 0 "C4" V 8908 1688 45  0000 L CNN
 F 1 "1uF" V 8992 1688 45  0000 L CNN
 F 2 "fab:fab-C1206FAB" H 9030 1750 20  0001 C CNN
 F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf?ref_disty=digikey" H 9000 1600 50  0001 C CNN
+F 4 "C1848" V 9000 1600 50  0001 C CNN "LCSC"
 	1    9000 1600
 	0    1    1    0   
 $EndComp
@@ -523,6 +530,7 @@ F 0 "R6" V 10208 1718 45  0000 L CNN
 F 1 "10k" V 10292 1718 45  0000 L CNN
 F 2 "fab-R1206FAB" H 10280 1800 20  0001 C CNN
 F 3 "" H 10250 1650 50  0001 C CNN
+F 4 "C17902" V 10250 1650 50  0001 C CNN "LCSC"
 	1    10250 1650
 	0    1    1    0   
 $EndComp
@@ -551,6 +559,7 @@ F 0 "FB2" V 7250 4500 50  0000 C CNN
 F 1 "1.5 kΩ" V 7300 4500 50  0000 C CNN
 F 2 "fab:fab-R1206FAB" V 7380 4400 50  0001 C CNN
 F 3 "https://product.tdk.com/info/en/catalog/datasheets/beads_commercial_signal_mmz2012_en.pdf" H 7450 4400 50  0001 C CNN
+F 4 "C21517" V 7450 4400 50  0001 C CNN "LCSC"
 	1    7450 4400
 	0    1    1    0   
 $EndComp
@@ -569,6 +578,7 @@ F 0 "C3" V 6908 4328 45  0000 L CNN
 F 1 "1uF" V 6992 4328 45  0000 L CNN
 F 2 "fab:fab-C1206FAB" H 6950 4200 50  0001 C CNN
 F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf?ref_disty=digikey" H 6950 4200 50  0001 C CNN
+F 4 "C1848" V 6950 4200 50  0001 C CNN "LCSC"
 	1    6950 4200
 	0    1    1    0   
 $EndComp
@@ -586,6 +596,7 @@ F 0 "FB1" V 7176 3900 50  0000 C CNN
 F 1 "1.5 kΩ" V 7267 3900 50  0000 C CNN
 F 2 "fab:fab-R1206FAB" V 7380 3900 50  0001 C CNN
 F 3 "https://product.tdk.com/info/en/catalog/datasheets/beads_commercial_signal_mmz2012_en.pdf" H 7450 3900 50  0001 C CNN
+F 4 "C21517" V 7450 3900 50  0001 C CNN "LCSC"
 	1    7450 3900
 	0    1    1    0   
 $EndComp
@@ -610,6 +621,7 @@ F 0 "R5" V 10108 2618 45  0000 L CNN
 F 1 "10k" V 10192 2618 45  0000 L CNN
 F 2 "fab-R1206FAB" H 10180 2700 20  0001 C CNN
 F 3 "" H 10150 2550 50  0001 C CNN
+F 4 "C17902" V 10150 2550 50  0001 C CNN "LCSC"
 	1    10150 2550
 	0    1    1    0   
 $EndComp
@@ -630,6 +642,7 @@ F 0 "U1" H 9600 2781 50  0000 C CNN
 F 1 "ADS1115IDGS" H 9600 2690 50  0000 C CNN
 F 2 "Package_SO:TSSOP-10_3x3mm_P0.5mm" H 9600 1600 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/ads1113.pdf" H 9550 1200 50  0001 C CNN
+F 4 "C37593" H 9600 2100 50  0001 C CNN "LCSC"
 	1    9600 2100
 	1    0    0    -1  
 $EndComp
@@ -765,6 +778,7 @@ F 0 "C2" V 6458 4288 45  0000 L CNN
 F 1 "100n" V 6542 4288 45  0000 L CNN
 F 2 "fab:fab-C1206FAB" H 6580 4350 20  0001 C CNN
 F 3 "https://api.kemet.com/component-edge/download/datasheet/C1206C104KARACTU.pdf" H 6550 4200 50  0001 C CNN
+F 4 "C24497" V 6550 4200 50  0001 C CNN "LCSC"
 	1    6550 4200
 	0    1    1    0   
 $EndComp
@@ -779,6 +793,7 @@ F 0 "C1" V 6108 4288 45  0000 L CNN
 F 1 "10n" V 6192 4288 45  0000 L CNN
 F 2 "fab:fab-C1206FAB" H 6230 4350 20  0001 C CNN
 F 3 "https://www.mouser.es/datasheet/2/447/UPY-GPHC_X7R_6.3V-to-50V_18-1154002.pdf" H 6200 4200 50  0001 C CNN
+F 4 "C1944" V 6200 4200 50  0001 C CNN "LCSC"
 	1    6200 4200
 	0    1    1    0   
 $EndComp

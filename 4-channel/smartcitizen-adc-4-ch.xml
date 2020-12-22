@@ -1,0 +1,714 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/Users/macoscar/Documents/04_Projects/02_FabLab/01_SmartCitizen/01_Repositories/hardware_firmware/smartcitizen-analog-sensor-board/4-channel/smartcitizen-adc-4-ch.sch</source>
+    <date>2020 December 02, Wednesday 11:46:44</date>
+    <tool>Eeschema (5.1.5-0-10_14)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>smartcitizen-adc-4-ch.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="ISB_2">
+      <value>PINHD-1x06-HEADER</value>
+      <footprint>fab:fab-1X06</footprint>
+      <libsource lib="fab" part="PINHD-1x06-HEADER" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EFD4CFB</tstamp>
+    </comp>
+    <comp ref="ISB_1">
+      <value>PINHD-1x06-HEADER</value>
+      <footprint>fab:fab-1X06</footprint>
+      <libsource lib="fab" part="PINHD-1x06-HEADER" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EFD4D01</tstamp>
+    </comp>
+    <comp ref="GROVEIN1">
+      <value>GROVE-CONNECTOR-SMD-90D_4+2P-2.0_</value>
+      <footprint>OPL_Connector:HW4-SMD-2.0-90D</footprint>
+      <fields>
+        <field name="SKU">320110032</field>
+      </fields>
+      <libsource lib="OPL_Connector" part="GROVE-CONNECTOR-SMD-90D_4+2P-2.0_" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EFD4D2C</tstamp>
+    </comp>
+    <comp ref="GROVEOUT1">
+      <value>GROVE-CONNECTOR-DIP_4P-2.0_</value>
+      <footprint>OPL_Connector:HW4-SMD-2.0-90D</footprint>
+      <fields>
+        <field name="SKU">320110032</field>
+      </fields>
+      <libsource lib="OPL_Connector" part="GROVE-CONNECTOR-SMD-90D_4+2P-2.0_" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EFD4D38</tstamp>
+    </comp>
+    <comp ref="JP2">
+      <value>Jumper_2_Open</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Jumper" part="Jumper_2_Open" description="Jumper, 2-pole, open"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EFD4D9B</tstamp>
+    </comp>
+    <comp ref="T1">
+      <value>NMOSFET</value>
+      <footprint>fab-SOT-23</footprint>
+      <datasheet>https://www.mouser.es/datasheet/2/308/NDS355AN-D-1813055.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C431497</field>
+      </fields>
+      <libsource lib="fab" part="NMOSFETSOT23" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EFD4DAC</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>10k</value>
+      <footprint>fab-R1206FAB</footprint>
+      <fields>
+        <field name="LCSC">C17902&#xD;</field>
+      </fields>
+      <libsource lib="fab" part="RES-US1206FAB" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EFD4DB2</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>10k</value>
+      <footprint>fab-R1206FAB</footprint>
+      <fields>
+        <field name="LCSC">C17902</field>
+      </fields>
+      <libsource lib="fab" part="RES-US1206FAB" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EFD4DBA</tstamp>
+    </comp>
+    <comp ref="T2">
+      <value>NMOSFET</value>
+      <footprint>fab-SOT-23</footprint>
+      <datasheet>https://www.mouser.es/datasheet/2/308/NDS355AN-D-1813055.pdf</datasheet>
+      <fields>
+        <field name="LCSC">NCE2304</field>
+      </fields>
+      <libsource lib="fab" part="NMOSFETSOT23" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EFD4DCD</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>10k</value>
+      <footprint>fab-R1206FAB</footprint>
+      <fields>
+        <field name="LCSC">C17902&#xD;</field>
+      </fields>
+      <libsource lib="fab" part="RES-US1206FAB" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EFD4DD5</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>10k</value>
+      <footprint>fab-R1206FAB</footprint>
+      <fields>
+        <field name="LCSC">C17902&#xD;</field>
+      </fields>
+      <libsource lib="fab" part="RES-US1206FAB" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EFD4DE4</tstamp>
+    </comp>
+    <comp ref="JP4">
+      <value>Jumper_2_Open</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Jumper" part="Jumper_2_Open" description="Jumper, 2-pole, open"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EFD4DF6</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>1uF</value>
+      <footprint>fab:fab-C1206FAB</footprint>
+      <datasheet>https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf?ref_disty=digikey</datasheet>
+      <fields>
+        <field name="LCSC">C1848&#xD;</field>
+      </fields>
+      <libsource lib="fab" part="CAP-UNPOLARIZED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EFD4E47</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>10k</value>
+      <footprint>fab-R1206FAB</footprint>
+      <fields>
+        <field name="LCSC">C17902&#xD;</field>
+      </fields>
+      <libsource lib="fab" part="RES-US1206FAB" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EFD4E52</tstamp>
+    </comp>
+    <comp ref="FB2">
+      <value>1.5 kΩ</value>
+      <footprint>fab:fab-R1206FAB</footprint>
+      <datasheet>https://product.tdk.com/info/en/catalog/datasheets/beads_commercial_signal_mmz2012_en.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C21517</field>
+      </fields>
+      <libsource lib="Device" part="Ferrite_Bead" description="Ferrite bead"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EFD4E78</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>1uF</value>
+      <footprint>fab:fab-C1206FAB</footprint>
+      <datasheet>https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf?ref_disty=digikey</datasheet>
+      <fields>
+        <field name="LCSC">C1848&#xD;</field>
+      </fields>
+      <libsource lib="fab" part="CAP-UNPOLARIZEDFAB" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EFD4E70</tstamp>
+    </comp>
+    <comp ref="FB1">
+      <value>1.5 kΩ</value>
+      <footprint>fab:fab-R1206FAB</footprint>
+      <datasheet>https://product.tdk.com/info/en/catalog/datasheets/beads_commercial_signal_mmz2012_en.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C21517</field>
+      </fields>
+      <libsource lib="Device" part="Ferrite_Bead" description="Ferrite bead"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EFD4E68</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>10k</value>
+      <footprint>fab-R1206FAB</footprint>
+      <fields>
+        <field name="LCSC">C17902&#xD;</field>
+      </fields>
+      <libsource lib="fab" part="RES-US1206FAB" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EFD4E5A</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>ADS1115IDGS</value>
+      <footprint>Package_SO:TSSOP-10_3x3mm_P0.5mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/ads1113.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C37593</field>
+      </fields>
+      <libsource lib="Analog_ADC" part="ADS1115IDGS" description="Ultra-Small, Low-Power, I2C-Compatible, 860-SPS, 16-Bit ADCs With Internal Reference, Oscillator, and Programmable Comparator, VSSOP-10"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EFD4E2A</tstamp>
+    </comp>
+    <comp ref="I2">
+      <value>alphasense-isb</value>
+      <footprint>ALPHASENSE:alphasense-isb</footprint>
+      <libsource lib="alphasense" part="alphasense-isb" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EFD4E1E</tstamp>
+    </comp>
+    <comp ref="I1">
+      <value>alphasense-isb</value>
+      <footprint>ALPHASENSE:alphasense-isb</footprint>
+      <libsource lib="alphasense" part="alphasense-isb" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EFD4E18</tstamp>
+    </comp>
+    <comp ref="JP5">
+      <value>Jumper_2_Open</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Jumper" part="Jumper_2_Open" description="Jumper, 2-pole, open"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EFD4DFD</tstamp>
+    </comp>
+    <comp ref="JP1">
+      <value>SolderJumper_3_Bridged12</value>
+      <footprint>Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm_NumberLabels</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Jumper" part="SolderJumper_3_Bridged12" description="3-pole Solder Jumper, pins 1+2 closed/bridged"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EFD4D91</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>100n</value>
+      <footprint>fab:fab-C1206FAB</footprint>
+      <datasheet>https://api.kemet.com/component-edge/download/datasheet/C1206C104KARACTU.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C24497</field>
+      </fields>
+      <libsource lib="fab" part="CAP-UNPOLARIZED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EFD4D58</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>10n</value>
+      <footprint>fab:fab-C1206FAB</footprint>
+      <datasheet>https://www.mouser.es/datasheet/2/447/UPY-GPHC_X7R_6.3V-to-50V_18-1154002.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C1944&#xD;</field>
+      </fields>
+      <libsource lib="fab" part="CAP-UNPOLARIZED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EFD4D52</tstamp>
+    </comp>
+    <comp ref="M1">
+      <value>PINHD-1x10-HEADER</value>
+      <footprint>ads11x5:ads11x5</footprint>
+      <libsource lib="fab" part="PINHD-1x10-HEADER" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EFD4CDC</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>EXT-V</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-3.5-H_1x02_P3.50mm_Horizontal</footprint>
+      <datasheet>https://www.mouser.es/datasheet/2/324/3/ItemDetail_1985807-927166.pdf</datasheet>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EFD4D3E</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>EXT-V</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-3.5-H_1x02_P3.50mm_Horizontal</footprint>
+      <datasheet>https://www.mouser.es/datasheet/2/324/3/ItemDetail_1985807-927166.pdf</datasheet>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EFD4D44</tstamp>
+    </comp>
+    <comp ref="M2">
+      <value>PINHD-2X2-SMD</value>
+      <footprint>fab-2X02SMD</footprint>
+      <libsource lib="fab" part="PINHD-2X2-SMD" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F086F4A</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Analog_ADC" part="ADS1015IDGS">
+      <aliases>
+        <alias>ADS1115IDGS</alias>
+      </aliases>
+      <description>Ultra-Small, Low-Power, I2C-Compatible, 3.3-kSPS, 12-Bit ADCs With Internal Reference, Oscillator, and Programmable Comparator, VSSOP-10</description>
+      <docs>http://www.ti.com/lit/ds/symlink/ads1015.pdf</docs>
+      <footprints>
+        <fp>TSSOP*3x3mm*P0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ADS1015IDGS</field>
+        <field name="Footprint">Package_SO:TSSOP-10_3x3mm_P0.5mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="ADDR" type="input"/>
+        <pin num="2" name="ALERT/RDY" type="output"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="AIN0" type="input"/>
+        <pin num="5" name="AIN1" type="input"/>
+        <pin num="6" name="AIN2" type="input"/>
+        <pin num="7" name="AIN3" type="input"/>
+        <pin num="8" name="VDD" type="power_in"/>
+        <pin num="9" name="SDA" type="BiDi"/>
+        <pin num="10" name="SCL" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Screw_Terminal_01x02">
+      <description>Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Ferrite_Bead">
+      <description>Ferrite bead</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+        <fp>*Ferrite*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">FB</field>
+        <field name="Value">Ferrite_Bead</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jumper" part="Jumper_2_Open">
+      <description>Jumper, 2-pole, open</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Jumper*</fp>
+        <fp>TestPoint*2Pads*</fp>
+        <fp>TestPoint*Bridge*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">Jumper_2_Open</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jumper" part="SolderJumper_3_Bridged12">
+      <description>3-pole Solder Jumper, pins 1+2 closed/bridged</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SolderJumper*Bridged12*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">SolderJumper_3_Bridged12</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="C" type="input"/>
+        <pin num="3" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="OPL_Connector" part="GROVE-CONNECTOR-SMD-90D_4+2P-2.0_">
+      <footprints>
+        <fp>*HW4-SMD-2.0-90D*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">GROVE-CONNECTOR-SMD-90D_4+2P-2.0_</field>
+        <field name="SKU">320110032</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="BiDi"/>
+        <pin num="2" name="2" type="BiDi"/>
+        <pin num="3" name="3" type="BiDi"/>
+        <pin num="4" name="4" type="BiDi"/>
+        <pin num="5" name="SS1" type="BiDi"/>
+        <pin num="6" name="SS2" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="alphasense" part="alphasense-isb">
+      <fields>
+        <field name="Reference">I</field>
+        <field name="Value">alphasense-isb</field>
+      </fields>
+      <pins>
+        <pin num="1" name="V+" type="power_in"/>
+        <pin num="2" name="V-" type="power_in"/>
+        <pin num="3" name="OP1+" type="output"/>
+        <pin num="4" name="OP1-" type="output"/>
+        <pin num="5" name="OP2+" type="output"/>
+        <pin num="6" name="OP2-" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="fab" part="CAP-UNPOLARIZED">
+      <footprints>
+        <fp>*C1206*</fp>
+        <fp>*C1206FAB*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CAP-UNPOLARIZED</field>
+        <field name="Footprint">fab-C1206</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="fab" part="CAP-UNPOLARIZEDFAB">
+      <footprints>
+        <fp>*C1206FAB*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CAP-UNPOLARIZEDFAB</field>
+        <field name="Footprint">fab-C1206FAB</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="fab" part="NMOSFETSOT23">
+      <footprints>
+        <fp>*SOT-23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">T</field>
+        <field name="Value">NMOSFETSOT23</field>
+        <field name="Footprint">fab-SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="D" type="passive"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="G" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="fab" part="PINHD-1x06-HEADER">
+      <footprints>
+        <fp>*1X06*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">M</field>
+        <field name="Value">PINHD-1x06-HEADER</field>
+        <field name="Footprint">fab-1X06</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="fab" part="PINHD-1x10-HEADER">
+      <footprints>
+        <fp>*1X10SMD*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">M</field>
+        <field name="Value">PINHD-1x10-HEADER</field>
+        <field name="Footprint">fab-1X10SMD</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+        <pin num="10" name="10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="fab" part="PINHD-2X2-SMD">
+      <footprints>
+        <fp>*2X02SMD*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">M</field>
+        <field name="Value">PINHD-2X2-SMD</field>
+        <field name="Footprint">fab-2X02SMD</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="fab" part="RES-US1206FAB">
+      <footprints>
+        <fp>*R1206FAB*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">RES-US1206FAB</field>
+        <field name="Footprint">fab-R1206FAB</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Analog_ADC">
+      <uri>/Users/macoscar/Documents/04_Projects/02_FabLab/03_General/02_Libraries/KiCad/V5/kicad-symbols/Analog_ADC.lib</uri>
+    </library>
+    <library logical="Connector">
+      <uri>/Users/macoscar/Documents/04_Projects/02_FabLab/03_General/02_Libraries/KiCad/V5/kicad-symbols/Connector.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>/Users/macoscar/Documents/04_Projects/02_FabLab/03_General/02_Libraries/KiCad/V5/kicad-symbols/Device.lib</uri>
+    </library>
+    <library logical="Jumper">
+      <uri>/Users/macoscar/Documents/04_Projects/02_FabLab/03_General/02_Libraries/KiCad/V5/kicad-symbols/Jumper.lib</uri>
+    </library>
+    <library logical="OPL_Connector">
+      <uri>/Users/macoscar/Documents/04_Projects/02_FabLab/03_General/02_Libraries/KiCad/OPL_Kicad_Library/Seeed_Fusion_PCBA_OPL_Component_Library_for_KiCad/OPL_Connector.lib</uri>
+    </library>
+    <library logical="alphasense">
+      <uri>/Users/macoscar/Documents/04_Projects/02_FabLab/01_SmartCitizen/01_Repositories/hardware_firmware/smartcitizen-analog-sensor-board/4-channel/ALPHASENSE/alphasense.lib</uri>
+    </library>
+    <library logical="fab">
+      <uri>/Users/macoscar/Documents/04_Projects/02_FabLab/03_General/01_Repositories/fabcloud/electronics/kicad/fab.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="VCC">
+      <node ref="M1" pin="1"/>
+      <node ref="U1" pin="8"/>
+      <node ref="FB1" pin="1"/>
+      <node ref="R6" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="ISB_2" pin="1"/>
+      <node ref="R4" pin="1"/>
+      <node ref="ISB_1" pin="1"/>
+      <node ref="R3" pin="1"/>
+      <node ref="JP2" pin="2"/>
+    </net>
+    <net code="2" name="GND">
+      <node ref="GROVEIN1" pin="4"/>
+      <node ref="GROVEIN1" pin="5"/>
+      <node ref="GROVEIN1" pin="6"/>
+      <node ref="GROVEOUT1" pin="4"/>
+      <node ref="GROVEOUT1" pin="5"/>
+      <node ref="GROVEOUT1" pin="6"/>
+      <node ref="M2" pin="2"/>
+      <node ref="M2" pin="1"/>
+      <node ref="J1" pin="1"/>
+      <node ref="J2" pin="1"/>
+      <node ref="M1" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="ISB_1" pin="6"/>
+      <node ref="ISB_1" pin="4"/>
+      <node ref="U1" pin="3"/>
+      <node ref="R5" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="FB2" pin="2"/>
+      <node ref="ISB_1" pin="2"/>
+      <node ref="FB2" pin="1"/>
+      <node ref="ISB_2" pin="6"/>
+      <node ref="C4" pin="2"/>
+      <node ref="ISB_2" pin="2"/>
+      <node ref="ISB_2" pin="4"/>
+    </net>
+    <net code="3" name="SCL">
+      <node ref="T2" pin="1"/>
+      <node ref="R4" pin="2"/>
+      <node ref="M1" pin="3"/>
+      <node ref="U1" pin="10"/>
+      <node ref="JP4" pin="2"/>
+    </net>
+    <net code="4" name="SDA">
+      <node ref="T1" pin="1"/>
+      <node ref="R3" pin="2"/>
+      <node ref="M1" pin="4"/>
+      <node ref="U1" pin="9"/>
+      <node ref="JP5" pin="2"/>
+    </net>
+    <net code="5" name="ADDR">
+      <node ref="JP5" pin="1"/>
+      <node ref="JP4" pin="1"/>
+      <node ref="R5" pin="1"/>
+      <node ref="M1" pin="5"/>
+      <node ref="U1" pin="1"/>
+      <node ref="JP2" pin="1"/>
+    </net>
+    <net code="6" name="ALRT">
+      <node ref="M1" pin="6"/>
+      <node ref="R6" pin="2"/>
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="7" name="A0">
+      <node ref="M1" pin="7"/>
+      <node ref="ISB_1" pin="3"/>
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="8" name="A1">
+      <node ref="ISB_1" pin="5"/>
+      <node ref="M1" pin="8"/>
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="9" name="A2">
+      <node ref="M1" pin="9"/>
+      <node ref="ISB_2" pin="3"/>
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="10" name="A3">
+      <node ref="U1" pin="7"/>
+      <node ref="ISB_2" pin="5"/>
+      <node ref="M1" pin="10"/>
+    </net>
+    <net code="11" name="3V3">
+      <node ref="T2" pin="3"/>
+      <node ref="T1" pin="3"/>
+      <node ref="GROVEIN1" pin="3"/>
+      <node ref="GROVEOUT1" pin="3"/>
+      <node ref="R1" pin="1"/>
+      <node ref="R2" pin="1"/>
+      <node ref="JP1" pin="1"/>
+    </net>
+    <net code="12" name="SDA3V3">
+      <node ref="R1" pin="2"/>
+      <node ref="T1" pin="2"/>
+      <node ref="GROVEOUT1" pin="2"/>
+      <node ref="GROVEIN1" pin="2"/>
+    </net>
+    <net code="13" name="SCL3V3">
+      <node ref="GROVEIN1" pin="1"/>
+      <node ref="R2" pin="2"/>
+      <node ref="T2" pin="2"/>
+      <node ref="GROVEOUT1" pin="1"/>
+    </net>
+    <net code="14" name="5V">
+      <node ref="JP1" pin="3"/>
+      <node ref="M2" pin="4"/>
+      <node ref="M2" pin="3"/>
+      <node ref="J1" pin="2"/>
+      <node ref="J2" pin="2"/>
+    </net>
+    <net code="15" name="Net-(I2-Pad1)">
+      <node ref="I2" pin="1"/>
+    </net>
+    <net code="16" name="Net-(I2-Pad2)">
+      <node ref="I2" pin="2"/>
+    </net>
+    <net code="17" name="Net-(I2-Pad3)">
+      <node ref="I2" pin="3"/>
+    </net>
+    <net code="18" name="Net-(I2-Pad4)">
+      <node ref="I2" pin="4"/>
+    </net>
+    <net code="19" name="Net-(I2-Pad5)">
+      <node ref="I2" pin="5"/>
+    </net>
+    <net code="20" name="Net-(I2-Pad6)">
+      <node ref="I2" pin="6"/>
+    </net>
+    <net code="21" name="Net-(I1-Pad1)">
+      <node ref="I1" pin="1"/>
+    </net>
+    <net code="22" name="Net-(I1-Pad2)">
+      <node ref="I1" pin="2"/>
+    </net>
+    <net code="23" name="Net-(I1-Pad3)">
+      <node ref="I1" pin="3"/>
+    </net>
+    <net code="24" name="Net-(I1-Pad4)">
+      <node ref="I1" pin="4"/>
+    </net>
+    <net code="25" name="Net-(I1-Pad5)">
+      <node ref="I1" pin="5"/>
+    </net>
+    <net code="26" name="Net-(I1-Pad6)">
+      <node ref="I1" pin="6"/>
+    </net>
+    <net code="27" name="Net-(C1-Pad1)">
+      <node ref="C2" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="FB1" pin="2"/>
+      <node ref="C3" pin="1"/>
+      <node ref="JP1" pin="2"/>
+    </net>
+  </nets>
+</export>
