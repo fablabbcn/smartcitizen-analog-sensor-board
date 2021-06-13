@@ -1296,17 +1296,6 @@ Text GLabel 8050 1500 0    50   Input ~ 0
 Wire Wire Line
 	8050 1500 8100 1500
 $Comp
-L Converter_DCDC:RO3.3-9S U4
-U 1 1 609E0DAA
-P 8900 4050
-F 0 "U4" H 8875 4415 50  0000 C CNN
-F 1 "RO3.3-9S" H 8875 4324 50  0000 C CNN
-F 2 "Converter_DCDC:Converter_DCDC_RECOM_RO_3.309S" H 8800 4050 50  0001 C CNN
-F 3 "https://www.mouser.es/datasheet/2/468/RO-1711124.pdf" H 8800 4050 50  0001 C CNN
-	1    8900 4050
-	1    0    0    -1  
-$EndComp
-$Comp
 L Regulator_Linear:LM3480-5.0 U5
 U 1 1 60A0FDE8
 P 9900 4150
@@ -1466,6 +1455,17 @@ F 1 "fablab" H 1536 7455 50  0000 L CNN
 F 2 "logos:fablab" H 1350 7500 50  0001 C CNN
 F 3 "" H 1350 7500 50  0001 C CNN
 	1    1350 7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Converter_DCDC:RO3.3-9S U4
+U 1 1 60C7C295
+P 8900 4050
+F 0 "U4" H 8875 4415 50  0000 C CNN
+F 1 "RO3.3-9S" H 8875 4324 50  0000 C CNN
+F 2 "Converter_DCDC:Converter_DCDC_RECOM_RO_3.309S" H 8800 4050 50  0001 C CNN
+F 3 "https://www.mouser.es/datasheet/2/468/RO-1711124.pdf" H 8800 4050 50  0001 C CNN
+	1    8900 4050
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
