@@ -4,12 +4,11 @@ This repository contains a set of boards that can interface the Smart Citizen Ki
 
 ![](assets/asb4ch.jpg)
 
-The SmartCitizen ASB is an expansion board for the [Smart Citizen Kit](https://github.com/fablabbcn/smartcitizen-kit-21) that provides connectivity to analog sensors with a high precission ADS1115 via I2C, with four configurable addresses. Daisy chainable up to 4 boards (or 2 in 8ch version) - with a total of 16 analog channels!
+The SmartCitizen ASB is an expansion board for the [Smart Citizen Kit](https://github.com/fablabbcn/smartcitizen-kit-21) that provides connectivity to analog sensors with a high precission ADS1115 via I2C, with four configurable addresses. Daisy chainable up to 4 boards (or 2 in 8ch version) - with a total of 16 analog channels.
 
 |Variant|# of Channels|External AREF needed|ADS format|
 |:-:|:-:|:-:|:-:|
 |4-channel|4|Y|SMD or [shield by adafruit](https://www.adafruit.com/product/1085)|
-|8-channel|8|Y|SMD|
 |8-channel-step|8|N|SMD|
 
 ## Characteristics
