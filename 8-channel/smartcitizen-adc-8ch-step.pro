@@ -1,4 +1,4 @@
-update=2021 April 07, Wednesday 18:28:57
+update=2021 July 05, Monday 17:16:25
 version=1
 last_client=kicad
 [general]
@@ -25,7 +25,7 @@ ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=
+LastNetListRead=smartcitizen-adc-8ch-step.net
 CopperLayerCount=2
 BoardThickness=1.6
 AllowMicroVias=0
@@ -238,7 +238,7 @@ Enabled=0
 [pcbnew/Netclasses]
 [pcbnew/Netclasses/Default]
 Name=Default
-Clearance=0.2
+Clearance=0.19812
 TrackWidth=0.25
 ViaDiameter=0.8
 ViaDrill=0.4

@@ -271,11 +271,11 @@ U 1 1 5EFC53C2
 P 2850 7200
 F 0 "C4" V 2758 7288 45  0000 L CNN
 F 1 "100nF" V 2842 7288 45  0000 L CNN
-F 2 "fab-C1206FAB" H 2880 7350 20  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL31B104KBCNNNC_C24497.pdf" H 2850 7200 50  0001 C CNN
-F 4 "Samsung Electro-Mechanics" V 2850 7200 50  0001 C CNN "Manufacturer"
-F 5 "CL31B104KBCNNNC" V 2850 7200 50  0001 C CNN "MFR.Part #"
-F 6 "C24497" V 2850 7200 50  0001 C CNN "LCSC"
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 2880 7350 20  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811061632_YAGEO-CC0805JRX7R9BB104_C111492.pdf" H 2850 7200 50  0001 C CNN
+F 4 "YAGEO" V 2850 7200 50  0001 C CNN "Manufacturer"
+F 5 "CC0805JRX7R9BB104" V 2850 7200 50  0001 C CNN "MFR.Part #"
+F 6 "C111492" V 2850 7200 50  0001 C CNN "LCSC"
 	1    2850 7200
 	0    1    1    0   
 $EndComp
@@ -285,11 +285,11 @@ U 1 1 5EFC57A8
 P 2500 7200
 F 0 "C3" V 2408 7288 45  0000 L CNN
 F 1 "10nF" V 2492 7288 45  0000 L CNN
-F 2 "fab-C1206FAB" H 2530 7350 20  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL31B103KGFNNNE_C1944.pdf" H 2500 7200 50  0001 C CNN
-F 4 "Samsung Electro-Mechanics" V 2500 7200 50  0001 C CNN "Manufacturer"
-F 5 "CL31B103KGFNNNE" V 2500 7200 50  0001 C CNN "MFR.Part #"
-F 6 "C1944" V 2500 7200 50  0001 C CNN "LCSC"
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 2530 7350 20  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1810311413_YAGEO-CC0805KRX7R0BB103_C107135.pdf" H 2500 7200 50  0001 C CNN
+F 4 "YAGEO" V 2500 7200 50  0001 C CNN "Manufacturer"
+F 5 "CC0805KRX7R0BB103" V 2500 7200 50  0001 C CNN "MFR.Part #"
+F 6 "C107135" V 2500 7200 50  0001 C CNN "LCSC"
 	1    2500 7200
 	0    1    1    0   
 $EndComp
@@ -380,149 +380,65 @@ Wire Wire Line
 $Comp
 L fab:PINHD-1x06-HEADER M2
 U 1 1 5F00573E
-P 1700 6350
-F 0 "M2" H 1700 6350 45  0001 C CNN
-F 1 "PINHD-1x06-HEADER" H 1700 6350 45  0001 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 1730 6500 20  0001 C CNN
-F 3 "" H 1700 6350 50  0001 C CNN
-	1    1700 6350
-	1    0    0    -1  
+P 1100 5850
+F 0 "M2" H 1100 5850 45  0001 C CNN
+F 1 "PINHD-1x06-HEADER" H 1100 5850 45  0001 C CNN
+F 2 "Connector_Molex:Molex_KK-254_AE-6410-06A_1x06_P2.54mm_Vertical" H 1130 6000 20  0001 C CNN
+F 3 "" H 1100 5850 50  0001 C CNN
+	1    1100 5850
+	-1   0    0    1   
 $EndComp
-Text GLabel 1400 5850 0    50   Input ~ 0
-GND
-Wire Wire Line
-	1400 5850 1600 5850
-Wire Wire Line
-	1600 5850 1600 6050
-Wire Wire Line
-	1600 6050 1700 6050
-Connection ~ 1600 5850
-Wire Wire Line
-	1600 5850 1700 5850
-Wire Wire Line
-	1600 6050 1600 6250
-Wire Wire Line
-	1600 6250 1700 6250
-Connection ~ 1600 6050
-Wire Wire Line
-	1350 6350 1700 6350
-Wire Wire Line
-	1400 5950 1700 5950
-Wire Wire Line
-	1400 6150 1700 6150
 $Comp
 L fab:PINHD-1x06-HEADER M4
 U 1 1 5F04D321
-P 3550 6400
-F 0 "M4" H 3550 6400 45  0001 C CNN
-F 1 "PINHD-1x06-HEADER" H 3550 6400 45  0001 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 3580 6550 20  0001 C CNN
-F 3 "" H 3550 6400 50  0001 C CNN
-	1    3550 6400
-	1    0    0    -1  
+P 2500 5800
+F 0 "M4" H 2500 5800 45  0001 C CNN
+F 1 "PINHD-1x06-HEADER" H 2500 5800 45  0001 C CNN
+F 2 "Connector_Molex:Molex_KK-254_AE-6410-06A_1x06_P2.54mm_Vertical" H 2530 5950 20  0001 C CNN
+F 3 "" H 2500 5800 50  0001 C CNN
+	1    2500 5800
+	-1   0    0    1   
 $EndComp
-Text GLabel 3250 5900 0    50   Input ~ 0
+Text GLabel 2800 5800 2    50   Input ~ 0
 GND
-Wire Wire Line
-	3250 5900 3450 5900
-Wire Wire Line
-	3450 5900 3450 6100
-Wire Wire Line
-	3450 6100 3550 6100
-Connection ~ 3450 5900
-Wire Wire Line
-	3450 5900 3550 5900
-Wire Wire Line
-	3450 6100 3450 6300
-Wire Wire Line
-	3450 6300 3550 6300
-Connection ~ 3450 6100
-Wire Wire Line
-	3200 6400 3550 6400
-Text GLabel 3250 6200 0    50   Input ~ 0
+Text GLabel 2800 6100 2    50   Input ~ 0
 A2
-Text GLabel 3250 6000 0    50   Input ~ 0
+Text GLabel 2800 5900 2    50   Input ~ 0
 A3
-Wire Wire Line
-	3250 6000 3550 6000
-Wire Wire Line
-	3250 6200 3550 6200
 $Comp
 L fab:PINHD-1x06-HEADER M1
 U 1 1 5F0532CA
-P 1700 5650
-F 0 "M1" H 1700 5650 45  0001 C CNN
-F 1 "PINHD-1x06-HEADER" H 1700 5650 45  0001 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 1730 5800 20  0001 C CNN
-F 3 "" H 1700 5650 50  0001 C CNN
-	1    1700 5650
-	1    0    0    -1  
+P 1100 5150
+F 0 "M1" H 1100 5150 45  0001 C CNN
+F 1 "PINHD-1x06-HEADER" H 1100 5150 45  0001 C CNN
+F 2 "Connector_Molex:Molex_KK-254_AE-6410-06A_1x06_P2.54mm_Vertical" H 1130 5300 20  0001 C CNN
+F 3 "" H 1100 5150 50  0001 C CNN
+	1    1100 5150
+	-1   0    0    1   
 $EndComp
-Text GLabel 1400 5150 0    50   Input ~ 0
+Text GLabel 1300 5150 2    50   Input ~ 0
 GND
-Wire Wire Line
-	1400 5150 1600 5150
-Wire Wire Line
-	1600 5150 1600 5350
-Wire Wire Line
-	1600 5350 1700 5350
-Connection ~ 1600 5150
-Wire Wire Line
-	1600 5150 1700 5150
-Wire Wire Line
-	1600 5350 1600 5550
-Wire Wire Line
-	1600 5550 1700 5550
-Connection ~ 1600 5350
-Text GLabel 1350 5650 0    50   Input ~ 0
+Text GLabel 1300 5650 2    50   Input ~ 0
 VSENS
-Wire Wire Line
-	1350 5650 1700 5650
-Text GLabel 1400 5450 0    50   Input ~ 0
+Text GLabel 1300 5450 2    50   Input ~ 0
 A4
-Text GLabel 1400 5250 0    50   Input ~ 0
+Text GLabel 1300 5250 2    50   Input ~ 0
 A5
-Wire Wire Line
-	1400 5250 1700 5250
-Wire Wire Line
-	1400 5450 1700 5450
 $Comp
 L fab:PINHD-1x06-HEADER M3
 U 1 1 5F059E23
-P 3550 5650
-F 0 "M3" H 3550 5650 45  0001 C CNN
-F 1 "PINHD-1x06-HEADER" H 3550 5650 45  0001 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 3580 5800 20  0001 C CNN
-F 3 "" H 3550 5650 50  0001 C CNN
-	1    3550 5650
-	1    0    0    -1  
+P 2500 5150
+F 0 "M3" H 2500 5150 45  0001 C CNN
+F 1 "PINHD-1x06-HEADER" H 2500 5150 45  0001 C CNN
+F 2 "Connector_Molex:Molex_KK-254_AE-6410-06A_1x06_P2.54mm_Vertical" H 2530 5300 20  0001 C CNN
+F 3 "" H 2500 5150 50  0001 C CNN
+	1    2500 5150
+	-1   0    0    1   
 $EndComp
-Text GLabel 3250 5150 0    50   Input ~ 0
-GND
-Wire Wire Line
-	3250 5150 3450 5150
-Wire Wire Line
-	3450 5150 3450 5350
-Wire Wire Line
-	3450 5350 3550 5350
-Connection ~ 3450 5150
-Wire Wire Line
-	3450 5150 3550 5150
-Wire Wire Line
-	3450 5350 3450 5550
-Wire Wire Line
-	3450 5550 3550 5550
-Connection ~ 3450 5350
-Wire Wire Line
-	3200 5650 3550 5650
-Text GLabel 3250 5450 0    50   Input ~ 0
+Text GLabel 2800 5450 2    50   Input ~ 0
 A6
-Text GLabel 3250 5250 0    50   Input ~ 0
+Text GLabel 2800 5250 2    50   Input ~ 0
 A7
-Wire Wire Line
-	3250 5250 3550 5250
-Wire Wire Line
-	3250 5450 3550 5450
 Text GLabel 6900 3500 0    50   Input ~ 0
 ADDR1
 Text GLabel 7300 3200 2    50   Input ~ 0
@@ -597,15 +513,9 @@ Text GLabel 5600 6000 2    50   Input ~ 0
 A6
 Text GLabel 4600 6000 0    50   Input ~ 0
 A7
-Text GLabel 1400 5950 0    50   Input ~ 0
-A1
-Text GLabel 1400 6150 0    50   Input ~ 0
-A0
-Text GLabel 3200 5650 0    50   Input ~ 0
+Text GLabel 2800 5650 2    50   Input ~ 0
 VSENS
-Text GLabel 3200 6400 0    50   Input ~ 0
-VSENS
-Text GLabel 1350 6350 0    50   Input ~ 0
+Text GLabel 2800 6300 2    50   Input ~ 0
 VSENS
 Text GLabel 2300 6950 0    50   Input ~ 0
 VCC
@@ -849,7 +759,7 @@ F 6 "C21517" V 8800 3300 50  0001 C CNN "LCSC"
 	0    1    1    0   
 $EndComp
 Text Notes 7000 7100 0    50   ~ 0
-Notes:\nMOLEX 6x1 2.54mm Male: 22232061\nTOBY 1.28\nScrew Connector: Phoenix Contact 1985807 (same as PS)\nUSB A - Phoenix Contact 87520-1110BLF\nMASTER POWER CUT - Vishay SiP32431 SC-70\n
+Notes:\nMOLEX 6x1 2.54mm Male: 22232061\nTOBY 1.28
 Text Notes 9000 1000 0    50   ~ 0
 LED INDICATORS
 Text Notes 8900 2600 0    50   ~ 0
@@ -870,34 +780,6 @@ Wire Notes Line
 	6200 4950 6200 6500
 Wire Notes Line
 	5850 2800 5850 4950
-$Comp
-L fab:CAP-UNPOLARIZEDFAB C9
-U 1 1 60F0483D
-P 4450 7200
-F 0 "C9" V 4358 7288 45  0000 L CNN
-F 1 "100nF" V 4442 7288 45  0000 L CNN
-F 2 "fab-C1206FAB" H 4480 7350 20  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL31B104KBCNNNC_C24497.pdf" H 4450 7200 50  0001 C CNN
-F 4 "Samsung Electro-Mechanics" V 4450 7200 50  0001 C CNN "Manufacturer"
-F 5 "CL31B104KBCNNNC" V 4450 7200 50  0001 C CNN "MFR.Part #"
-F 6 "C24497" V 4450 7200 50  0001 C CNN "LCSC"
-	1    4450 7200
-	0    1    1    0   
-$EndComp
-$Comp
-L fab:CAP-UNPOLARIZEDFAB C8
-U 1 1 60F04846
-P 4100 7200
-F 0 "C8" V 4008 7288 45  0000 L CNN
-F 1 "10nF" V 4092 7288 45  0000 L CNN
-F 2 "fab-C1206FAB" H 4130 7350 20  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL31B103KGFNNNE_C1944.pdf" H 4100 7200 50  0001 C CNN
-F 4 "Samsung Electro-Mechanics" V 4100 7200 50  0001 C CNN "Manufacturer"
-F 5 "CL31B103KGFNNNE" V 4100 7200 50  0001 C CNN "MFR.Part #"
-F 6 "C1944" V 4100 7200 50  0001 C CNN "LCSC"
-	1    4100 7200
-	0    1    1    0   
-$EndComp
 Text GLabel 3900 6950 0    50   Input ~ 0
 VCC
 Text GLabel 3900 7350 0    50   Input ~ 0
@@ -1072,34 +954,6 @@ Wire Wire Line
 	8300 3950 8400 3950
 Text GLabel 9450 3950 2    50   Input ~ 0
 GND
-$Comp
-L fab:CAP-UNPOLARIZEDFAB C13
-U 1 1 60A0F611
-P 6200 7200
-F 0 "C13" V 6108 7288 45  0000 L CNN
-F 1 "100nF" V 6192 7288 45  0000 L CNN
-F 2 "fab-C1206FAB" H 6230 7350 20  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL31B104KBCNNNC_C24497.pdf" H 6200 7200 50  0001 C CNN
-F 4 "Samsung Electro-Mechanics" V 6200 7200 50  0001 C CNN "Manufacturer"
-F 5 "CL31B104KBCNNNC" V 6200 7200 50  0001 C CNN "MFR.Part #"
-F 6 "C24497" V 6200 7200 50  0001 C CNN "LCSC"
-	1    6200 7200
-	0    1    1    0   
-$EndComp
-$Comp
-L fab:CAP-UNPOLARIZEDFAB C12
-U 1 1 60A0F61A
-P 5850 7200
-F 0 "C12" V 5758 7288 45  0000 L CNN
-F 1 "10nF" V 5842 7288 45  0000 L CNN
-F 2 "fab-C1206FAB" H 5880 7350 20  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL31B103KGFNNNE_C1944.pdf" H 5850 7200 50  0001 C CNN
-F 4 "Samsung Electro-Mechanics" V 5850 7200 50  0001 C CNN "Manufacturer"
-F 5 "CL31B103KGFNNNE" V 5850 7200 50  0001 C CNN "MFR.Part #"
-F 6 "C1944" V 5850 7200 50  0001 C CNN "LCSC"
-	1    5850 7200
-	0    1    1    0   
-$EndComp
 Text GLabel 5650 6950 0    50   Input ~ 0
 VCC
 Text GLabel 5650 7350 0    50   Input ~ 0
@@ -1248,4 +1102,150 @@ Wire Notes Line
 	500  6500 9300 6500
 Wire Notes Line
 	9300 4950 9300 6500
+$Comp
+L fab:CAP-UNPOLARIZEDFAB C8
+U 1 1 60FBBC65
+P 4100 7200
+F 0 "C8" V 4008 7288 45  0000 L CNN
+F 1 "10nF" V 4092 7288 45  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 4130 7350 20  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1810311413_YAGEO-CC0805KRX7R0BB103_C107135.pdf" H 4100 7200 50  0001 C CNN
+F 4 "YAGEO" V 4100 7200 50  0001 C CNN "Manufacturer"
+F 5 "CC0805KRX7R0BB103" V 4100 7200 50  0001 C CNN "MFR.Part #"
+F 6 "C107135" V 4100 7200 50  0001 C CNN "LCSC"
+	1    4100 7200
+	0    1    1    0   
+$EndComp
+$Comp
+L fab:CAP-UNPOLARIZEDFAB C12
+U 1 1 60FD2A54
+P 5850 7200
+F 0 "C12" V 5758 7288 45  0000 L CNN
+F 1 "10nF" V 5842 7288 45  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 5880 7350 20  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1810311413_YAGEO-CC0805KRX7R0BB103_C107135.pdf" H 5850 7200 50  0001 C CNN
+F 4 "YAGEO" V 5850 7200 50  0001 C CNN "Manufacturer"
+F 5 "CC0805KRX7R0BB103" V 5850 7200 50  0001 C CNN "MFR.Part #"
+F 6 "C107135" V 5850 7200 50  0001 C CNN "LCSC"
+	1    5850 7200
+	0    1    1    0   
+$EndComp
+$Comp
+L fab:CAP-UNPOLARIZEDFAB C9
+U 1 1 60FEA673
+P 4450 7200
+F 0 "C9" V 4358 7288 45  0000 L CNN
+F 1 "100nF" V 4442 7288 45  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 4480 7350 20  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811061632_YAGEO-CC0805JRX7R9BB104_C111492.pdf" H 4450 7200 50  0001 C CNN
+F 4 "YAGEO" V 4450 7200 50  0001 C CNN "Manufacturer"
+F 5 "CC0805JRX7R9BB104" V 4450 7200 50  0001 C CNN "MFR.Part #"
+F 6 "C111492" V 4450 7200 50  0001 C CNN "LCSC"
+	1    4450 7200
+	0    1    1    0   
+$EndComp
+$Comp
+L fab:CAP-UNPOLARIZEDFAB C13
+U 1 1 610021D5
+P 6200 7200
+F 0 "C13" V 6108 7288 45  0000 L CNN
+F 1 "100nF" V 6192 7288 45  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 6230 7350 20  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811061632_YAGEO-CC0805JRX7R9BB104_C111492.pdf" H 6200 7200 50  0001 C CNN
+F 4 "YAGEO" V 6200 7200 50  0001 C CNN "Manufacturer"
+F 5 "CC0805JRX7R9BB104" V 6200 7200 50  0001 C CNN "MFR.Part #"
+F 6 "C111492" V 6200 7200 50  0001 C CNN "LCSC"
+	1    6200 7200
+	0    1    1    0   
+$EndComp
+Text GLabel 1300 6350 2    50   Input ~ 0
+VSENS
+Text GLabel 1300 6150 2    50   Input ~ 0
+A0
+Text GLabel 1300 5950 2    50   Input ~ 0
+A1
+Text GLabel 1300 5850 2    50   Input ~ 0
+GND
+Wire Wire Line
+	1300 6350 1100 6350
+Wire Wire Line
+	1300 5850 1200 5850
+Wire Wire Line
+	1100 6250 1200 6250
+Wire Wire Line
+	1200 6250 1200 6050
+Connection ~ 1200 5850
+Wire Wire Line
+	1200 5850 1100 5850
+Wire Wire Line
+	1100 6050 1200 6050
+Connection ~ 1200 6050
+Wire Wire Line
+	1200 6050 1200 5850
+Wire Wire Line
+	1100 5950 1300 5950
+Wire Wire Line
+	1300 6150 1100 6150
+Wire Wire Line
+	1100 5150 1200 5150
+Wire Wire Line
+	1100 5550 1200 5550
+Wire Wire Line
+	1200 5550 1200 5350
+Connection ~ 1200 5150
+Wire Wire Line
+	1200 5150 1300 5150
+Wire Wire Line
+	1100 5250 1300 5250
+Wire Wire Line
+	1300 5450 1100 5450
+Wire Wire Line
+	1100 5350 1200 5350
+Connection ~ 1200 5350
+Wire Wire Line
+	1200 5350 1200 5150
+Wire Wire Line
+	1100 5650 1300 5650
+Text GLabel 2800 5150 2    50   Input ~ 0
+GND
+Wire Wire Line
+	2500 5150 2650 5150
+Wire Wire Line
+	2500 5350 2650 5350
+Wire Wire Line
+	2650 5350 2650 5150
+Connection ~ 2650 5150
+Wire Wire Line
+	2650 5150 2800 5150
+Wire Wire Line
+	2500 5250 2800 5250
+Wire Wire Line
+	2500 5450 2800 5450
+Wire Wire Line
+	2650 5350 2650 5550
+Wire Wire Line
+	2650 5550 2500 5550
+Connection ~ 2650 5350
+Wire Wire Line
+	2500 5650 2800 5650
+Wire Wire Line
+	2500 5800 2650 5800
+Wire Wire Line
+	2500 6000 2650 6000
+Wire Wire Line
+	2650 6000 2650 5800
+Connection ~ 2650 5800
+Wire Wire Line
+	2650 5800 2800 5800
+Wire Wire Line
+	2650 6000 2650 6200
+Wire Wire Line
+	2650 6200 2500 6200
+Connection ~ 2650 6000
+Wire Wire Line
+	2500 6100 2800 6100
+Wire Wire Line
+	2500 6300 2800 6300
+Wire Wire Line
+	2500 5900 2800 5900
 $EndSCHEMATC
